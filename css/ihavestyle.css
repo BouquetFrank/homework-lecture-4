@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Vibes&display=swap');
+
+p {
+	color: #00f;
+	font-family: "Veranda";
+}
+
+h1 {
+	color: #ABC;
+	font-family: "Arial";
+}
+
+table {
+	color: #CBA;
+	font-family: "Roboto";
+}
+
+form {
+	color: #123;
+	font-family: "Vibes"
+}
+
+body {
+	background-color: #456;
+}

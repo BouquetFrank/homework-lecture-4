@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta name="keywords" content="Student, Inc, Computers, Online, Webshop, Studenten, selling" />
+			<meta name="description" content="Student Inc is de speciaalzaak voor al uw computers!" />
+			<meta name="author" content="Frank Bouquet" />
+			<title>
+				Student Inc - Contact
+			</title>
+			<link rel="stylesheet" type="text/css" href="css/ihavestyle.css">
+		</head>
+		<body>
+				<svg
+			version="1.1"
+			xmlns="https://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			>
+			
+			  <polygon points="170,40 195,40 185,0"
+			  style="fill:#F0F;stroke:#FFF;stroke-width:1;" />
+
+			  <polygon points="110,40 155,40 120,0"
+			  style="fill:#F0F;stroke:#FFF;stroke-width:1;" />
+			
+			<circle
+			cx="50%"
+			cy="50%"
+			r="25%"
+			stroke="#FFF"
+			stroke-width="1"
+			fill="#F0F"
+			/>
+
+			<circle
+			cx="48%"
+			cy="50%"
+			r="5%"
+			stroke="#FFF"
+			stroke-width="3"
+			fill="#00FFFF"
+			/>
+			
+			<circle
+			cx="60%"
+			cy="50%"
+			r="5%"
+			stroke="#FFF"
+			stroke-width="2"
+			fill="#00FFFF"
+			/>
+			
+						
+			<circle
+			cx="55%"
+			cy="65%"
+			r="8%"
+			stroke="#FFF"
+			stroke-width="2"
+			fill="#00008b"
+			/>
+			
+			<circle
+			cx="56%"
+			cy="60%"
+			r="3%"
+			stroke="#FFF"
+			stroke-width="2"
+			fill="#00FFFF"
+			/>
+			
+
+			
+			
+
+		</svg>
+			<a href="index.html">Home</a>
+			<a href="product.html">Producten</a>
+			<a href="contact.html">Contact</a>
+			<form
+				action = "apicall.asp"
+				method = "get"
+				>
+				<h1>Contact by email</h1>
+				
+				<fieldset>
+					<h2>
+						Please select the topic you would like to contact us about
+						So, we can serve you better and faster.
+					</h2>
+					
+					<legend>
+						Where is your question about?
+					</legend>
+					
+					<select name="Make a choice">
+						<option value="I have a question about an order"> I have a question about an order</option>
+						<option value="I like to have more information about a computer"> I like to have more information about a computer</option>
+						<option value="I have another question"> I have another question</option>
+					</select>
+				</fieldset>
+				
+				<fieldset>
+					<h2>Contact about </h2>
+					<legend>
+						Main subject
+					</legend>
+					<select name="Choose Topic">
+						<option value="Ordering and delivery">Ordering and delivery</option>
+						<option value="Cancel and return">Cancel and return</option>
+						<option value="Gift voucher">Gift voucher</option>
+						<option value="Other question">Other Question</option>
+					</select>
+					<p>
+						<label>Note</label>
+						<textarea
+							id = "Note"
+							rows = "5"
+							cols = "80">Your message here
+						</textarea>
+					</p>
+					
+						<label for = "attachment" />Attachment</label>
+						<input id="attachment" name="attachment" value="attachment" type="file" name="attachment" accept="image/*">
+						
+						<label for = "firstname" /> First name</label>
+						<input id="firstname" name="firstname" value="firstname" type="text" required> 
+						
+						<label for = "lastname" /> Last name</label>
+						<input id="lastname" name="lastname" value="lastname" type="text" required> 
+
+						<label for = "phone" /> Phone number</label>
+						<input id="phone" name="phone" value="phone" type="tel" pattern="[0-9{3}-[0-9]{2}-[0-9{3}">
+						
+						<label for = "email" /> Email address</label>
+						<input id="email" name="email" value="email" type="email" required>
+						
+										
+				</fieldset>
+						<input type="submit">
+			</form>
+
+
+			<p>
+				&copy; Student Inc.
+			</p>
+		</body>
+	</html>
